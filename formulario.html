@@ -14,20 +14,25 @@
 
   <form class="form"> 
     <!-- Se agregó label -->
-    <label for="name">Nombre:</label>
-    <input type="text" name="name" id="name">
+    <div class="entry">
+      <label for="name">Nombre:</label>
+      <input type="text" name="name" id="name">
+    </div>
     <br />
-    <label for="age">Edad:</label>
-    <input type="number" name="age" id="age">
+    <div>
+      <label for="age">Edad:</label>
+      <input type="number" name="age" id="age">
+    </div>
     <br />
-
-    <label for="nationality">Nacionalidad:</label>
-    <select name="nationality" id="nationality">
-      <option value="ar">Argentina</option>
-      <option value="mx">Mexicana</option>
-      <option value="per">Peruana</option>
-      <option value="vnzl">Venezolana</option>
-    </select>
+    <div>
+      <label for="nationality">Nacionalidad:</label>
+      <select name="nationality" id="nationality">
+        <option value="ar">Argentina</option>
+        <option value="mx">Mexicana</option>
+        <option value="per">Peruana</option>
+        <option value="vnzl">Venezolana</option>
+      </select>
+    </div>
     <br />
     <input type="submit" value="submit">
   </form>

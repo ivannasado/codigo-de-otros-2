@@ -19,7 +19,7 @@ formulario.onsubmit = function (event) { //Se agregó event
   if (nombre.length === 0) {
     n.classList.add("error");
   } 
-  if (edad >= 18 || edad > 120) { //Se cambió la edad de registro a >=
+  if (edad < 18 || edad > 120) { //Se cambió la edad de registro a >=
     e.classList.add("error");
   }
 

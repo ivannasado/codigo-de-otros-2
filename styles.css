@@ -11,10 +11,15 @@ body {
   width: 400px;
 }
 
+.formulario label{
+  margin: 15px;
+}
+
 .formulario input, select {
   border: none;
   height: 20px;
   border-radius: 5px;
+  
 }
 
 .error {
